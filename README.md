@@ -6,7 +6,7 @@ A robotics and app development enthusiast.
   Making electronics more efficient,  
   repairing whats broken,  
   &  
-  blending art with tech to create things that are both useful and beautiful  
+  blending art with tech to create things that are both useful and beautiful.  
 
   
  ---     
