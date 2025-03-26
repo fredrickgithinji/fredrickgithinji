@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Personal Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="circuit-pattern"></div>
+            <div class="glow glow-1"></div>
+            <div class="glow glow-2"></div>
+
+            <div class="content">
+                <div class="header">
+                    <i class="icon-cpu"></i>
+                    <h2>Welcome, <span id="userName" class="highlight">System User</span><span id="cursor">|</span></h2>
+                </div>
+
+                <div class="profile-image">
+                    <div class="overlay"></div>
+                    <img src="images/profile.webp" alt="Profile">
+                </div>
+
+                <div class="terminal">
+                    <pre id="terminalText"></pre>
+                </div>
+
+                <div class="status-section">
+                    <div class="status-item">
+                        <i class="icon-zap"></i>
+                        <span>System Status: </span>
+                        <span id="systemStatus" class="highlight">85%</span>
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <button class="button" onclick="window.location.href='dashboard.html'">
+                        Enter Dashboard
+                        <i class="icon-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
